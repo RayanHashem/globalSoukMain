@@ -21,7 +21,7 @@ export default function Home() {
               <img 
                 alt="Elaborate floral and makeup collage" 
                 className="feature-image" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqJvAWHwltWl75zgLeYVYWDM7If0CZz9gUrNk18zXp40zv_Fsqbu1jr5o0_6FXY0U7q29K2yDfKl4sbIyHER0_yrJ_tuL2dQBWWgnxwiOvfOV8Q0Ij2xm9bsFCN2Q3FvnY471IwRiJKMONUeZekJXJ4IiIE2_shzVKnS6l17J3ezzPuVGSeh7yHATD3QBVHD9EOtJt-xfKhN1Txm8YKfUu3FIbPlihVc9MMoQCCPjpafLy6G_q5frAVR4BnL94HgWuTx2YJtlDPw"
+                src="/makeup.jpg"
               />
               <div 
                 className="feature-decoration bg-1" 
@@ -39,6 +39,66 @@ export default function Home() {
               </p>
               <a className="feature-cta group-cta" href="#">
                 <span className="cta-text">Visit Makeup Souk</span>
+                <span className="material-icons arrow-icon">east</span>
+              </a>
+            </div>
+          </section>
+
+          {/* The Purity Principle */}
+          <section className="feature-section group">
+            <div className="feature-copy-wrapper">
+              <h3 className="feature-title">
+                The <span className="accent">Purity</span> Principle
+              </h3>
+              <p className="feature-description">
+                Explore our sanctuary of clean. Potent, plant-derived formulas for a home that's as kind to the planet as it is to your senses.
+              </p>
+              <a className="feature-cta group-cta" href="#">
+                <span className="cta-text">Visit Cleaning Souk</span>
+                <span className="material-icons arrow-icon">east</span>
+              </a>
+            </div>
+            <div className="feature-image-wrapper">
+              <div className="feature-image-glow"></div>
+              <img 
+                alt="Lush green leaves and cleaning product elements" 
+                className="feature-image" 
+                src="/lechat.png"
+              />
+              <div 
+                className="feature-decoration bg-2" 
+                style={{
+                  backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuCRSvtFnVyscTGxFXhjldzr4O_Uh9Wol1Ze3m7aUno_ZTM8PlONtQDKKwoJCWdUKALuh0JL4HB7oVOwCvX-Ci41UbfZkpzxla0LpcxE4vMPAVD8sZaHsgDxtbo7SFBFzAEyxD-NEFzezZUzayF_QM42YD2Miu7N42-NuemaHEWCKoF23zQLf6UnTmSetyFOsRXoaefdiwY7TFrBL5v8WYj3ZnwtVRixyvT1fQkKexdarK48ZiwvQygtNmNVR_pXaYMr4Z74VWaEUQ')`
+                }}
+              ></div>
+            </div>
+          </section>
+
+          {/* Visa Processing Service */}
+          <section className="feature-section group">
+            <div className="feature-image-wrapper order-2 md-order-1">
+              <div className="feature-image-glow"></div>
+              <img 
+                alt="Stylized collage of passports, stamps, and world maps" 
+                className="feature-image" 
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAS7SQ3Ape3ojAp7iL4MH68chZo2a8l0Wzgu4dNItOqdVgcqE2jl_k3_Y7SlNIu6MlRTmH_M0ZXRWzbEBX9ebdLpYVMvZvlXtRsd4O7ONJGpG1y8QzTzc6D5p-DJ-DC_tpTv-BNVTwkmStoMDoDrwAdgeVFfaCqtbdwhVp2HL_3yY01iNrEOJGeJNYyWjmgxvrkvypapmhiHTAmzbRB-lgpPdcyLfm3j5JpjJWuzO590mwBgnUbjo5gsCA14TYYQccwe4EpvdwA_A"
+              />
+              <div 
+                className="feature-decoration bg-3" 
+                style={{
+                  backgroundImage: `url('https://lh3.googleusercontent.com/aida-public/AB6AXuAjSJh8ysBXpn5HgGN-b9OkvHb2Z7aSgFwPuFK7AM0Ee_vL_CgoYroG1t_IX6VemFQGxs7tpfAC2-7NdeYm6G3PZdq1c-bLyd6833EiY0q0utShdJdEGwTYE0VDWYvwCfwVyoRESF8aCDmI_0Rdi8Gu-qZEtfGGOSktCO6E1nGD9FsG0TcxjMHEgQK37vQg8dRuRQXtEhlI6QV6mlFUi8fG5hmRnz0azQro2NOBk2uQrX8zxN7vlMJ5i4YWc7Gt1itNLEoInN4hIw')`
+                }}
+              ></div>
+            </div>
+            <div className="feature-copy-wrapper order-1 md-order-2">
+              <h3 className="feature-title">
+                Visa Processing <span className="accent">Service</span>
+              </h3>
+              <p className="feature-description">
+                Navigate global travel with ease. Our expert visa services provide a seamless, efficient, and reliable path to your next destination.
+              </p>
+              <a className="feature-cta group-cta" href="#">
+                <span className="cta-text">Visit Visa Souk</span>
                 <span className="material-icons arrow-icon">east</span>
               </a>
             </div>
