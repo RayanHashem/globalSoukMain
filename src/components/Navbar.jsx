@@ -3,7 +3,9 @@ import { NavLink } from 'react-router-dom'
 export default function Navbar() {
   return (
     <header className="header">
-      <h1 className="header-brand">Global Souk</h1>
+      <NavLink to="/" className="header-brand">
+        <img src="/globallogo.png" alt="Global Souk" className="header-logo" />
+      </NavLink>
       <nav className="header-nav">
         <NavLink to="/about" className="nav-link">About</NavLink>
         <NavLink to="/contact" className="nav-link">Contact</NavLink>
